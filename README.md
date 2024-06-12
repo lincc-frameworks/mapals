@@ -29,6 +29,11 @@ create and activate a new environment.
 >> conda activate <env_name>
 ```
 
+This project depends on CUDA-Python. It has a couple of requirements that must be installed manually.
+They are outlined here: https://nvidia.github.io/cuda-python/install.html#runtime-requirements
+
+Perhaps it goes without saying, you'll need an Nvidia GPU to run on.
+
 Once you have created a new environment, you can install this project for local
 development using the following commands:
 
