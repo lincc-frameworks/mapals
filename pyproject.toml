@@ -15,6 +15,7 @@ classifiers = [
 dynamic = ["version"]
 requires-python = ">=3.9"
 dependencies = [
+    "cuda-python",
 ]
 
 [project.urls]
