@@ -16,6 +16,7 @@ dynamic = ["version"]
 requires-python = ">=3.9"
 dependencies = [
     "cuda-python",
+    "numpy",
 ]
 
 [project.urls]
@@ -28,8 +29,10 @@ dev = [
     "black", # Used for static linting of files
     "jupyter", # Clears output from Jupyter notebooks
     "pre-commit", # Used to run checks before finalizing a git commit
-    "pytest",
+    "pytest", # Used to run tests
     "pytest-cov", # Used to report total code coverage
+    "matplotlib", # Used to plot data
+    "astropy", # Used as the LS baseline for comparison
 ]
 
 [build-system]
